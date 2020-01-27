@@ -37,6 +37,14 @@
 @media screen and (max-width:600px) {
     .mobilefix {
         width: 280px;
+        height: 112px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .mobilefixforheader {
+        width: 280px;
+        height: 112px;
     }
 }
 
@@ -44,6 +52,12 @@
     .removefromdesktop {
         display: none;
         visibility: hidden;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .desktopfixforheader {
+        width: 100%;
     }
 }
 
