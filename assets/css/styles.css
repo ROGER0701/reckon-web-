@@ -61,6 +61,16 @@
     }
 }
 
+
+/* For general iPad layouts */
+
+@media only screen and (device-width: 768px) {
+    .ipadfixforheader {
+        display: none;
+        visibility: hidden;
+    }
+}
+
 .mobilefix {}
 
 .collapsible {
@@ -76,7 +86,7 @@
 
 .active,
 .collapsible:hover {
-    background-color: #400070;
+    background-color: #fff;
     outline: none;
 }
 
@@ -84,7 +94,7 @@
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #ff7b1c;
+    background-color: #400070;
     color: #fff;
     outline: none;
 }
